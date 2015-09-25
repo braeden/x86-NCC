@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://codenvy.com/dashboard"
+      },
+      "urls": [ "https://codenvy.com/" ]
+   },
+   "description": "Developer workspaces to modify, run and debug code in the cloud or on-premises",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDoTXA44SEIFWnukr9mdOZZNd43nrPY3QQjpP+k3mjqu39oUK9+nvhbk2f3S9OU6QocP89NoUkU6xKyKLY+trnQX6cHVTUPmfEppSIPK/czx6QPZ+d45UYC5N6qfoOGe26oAn8vq4FrfKcOHOarEJicCBU8CHtSVGVtSUb4gHP8pQIDAQAB",
+   "manifest_version": 2,
+   "name": "Codenvy",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1"
+}

@@ -1,0 +1,275 @@
+{
+   "aboutHomePage": {
+      "message": "Веб-сайт проекта"
+   },
+   "aboutLicense": {
+      "message": "Caret доступен под GPL лицензией, что означает, что его \u003Ca href=\"https://github.com/thomaswilburn/Caret\" target=_blank>исходный код\u003C/a> находится в свободном доступе и вы можете использовать и изменять его по своему усмотрению. Если вы находите Caret полезным, то поддержите Free Software Foundation's \u003Ca href=\"http://endsoftwarepatents.org/donate\" target=_blank>Fund to End Software Patents\u003C/a>."
+   },
+   "aboutSupport": {
+      "message": "Поддержка"
+   },
+   "aboutWrittenBy": {
+      "message": "Автор \u003Ca href=\"http://thomaswilburn.net\" target=_blank>Thomas Wilburn\u003C/a>"
+   },
+   "application_description": {
+      "message": "Профессиональный текстовой редактор для Chrome и Chrome OS."
+   },
+   "application_title": {
+      "message": "Caret"
+   },
+   "dialogCancel": {
+      "message": "Отмена"
+   },
+   "dialogDiscard": {
+      "message": "Не сохранять"
+   },
+   "dialogModifiedBackground": {
+      "message": "Этот файл был изменён с момента последнего сохранения. Открыть его заново?"
+   },
+   "dialogModifiedUnsaved": {
+      "message": "$1 был изменён.\nВы хотите сохранить изменения?"
+   },
+   "dialogOK": {
+      "message": "ОК"
+   },
+   "dialogReload": {
+      "message": "Перезагрузить"
+   },
+   "dialogSave": {
+      "message": "Сохранить"
+   },
+   "dialogUnsaved": {
+      "message": "$1 имеет несохранённые изменения."
+   },
+   "editorWordCount": {
+      "message": "$1 символов, $2 слов, $3 строк"
+   },
+   "fileAutosaving": {
+      "message": "Выполнение автосохранения для всех вкладок..."
+   },
+   "fileLoaded": {
+      "message": "Загружено $1, $2 байт"
+   },
+   "loading": {
+      "message": "загрузка"
+   },
+   "menuAPI": {
+      "message": "Внешние команды"
+   },
+   "menuAboutCaret": {
+      "message": "О Caret"
+   },
+   "menuAddDir": {
+      "message": "Добавить папку"
+   },
+   "menuBlockComment": {
+      "message": "Блочный комментарий"
+   },
+   "menuCheckForUpdates": {
+      "message": "Проверить обновления"
+   },
+   "menuClearProject": {
+      "message": "Очистить проект"
+   },
+   "menuClose": {
+      "message": "Закрыть"
+   },
+   "menuCommandPalette": {
+      "message": "Поиск команд"
+   },
+   "menuDefaults": {
+      "message": "Стандартные настройки"
+   },
+   "menuEdit": {
+      "message": "Правка"
+   },
+   "menuEditProject": {
+      "message": "Редактировать текущий проект"
+   },
+   "menuEmergencyReset": {
+      "message": "Сбросить всё"
+   },
+   "menuExit": {
+      "message": "Выход"
+   },
+   "menuFile": {
+      "message": "Файл"
+   },
+   "menuFind": {
+      "message": "Поиск"
+   },
+   "menuFindNext": {
+      "message": "Искать далее"
+   },
+   "menuFindReplace": {
+      "message": "Замена"
+   },
+   "menuGoToAnything": {
+      "message": "Перейти к..."
+   },
+   "menuGoToLine": {
+      "message": "Перейти к строке"
+   },
+   "menuGoToRef": {
+      "message": "Перейти к ссылке"
+   },
+   "menuGoToSearch": {
+      "message": "Поиск по мере ввода"
+   },
+   "menuHelp": {
+      "message": "Справка"
+   },
+   "menuInsertFromFile": {
+      "message": "Вставить из файла"
+   },
+   "menuJoinLines": {
+      "message": "Объединить строки"
+   },
+   "menuKeyboard": {
+      "message": "Быстрые клавиши"
+   },
+   "menuKeyboardDefault": {
+      "message": "Быстрые клавиши"
+   },
+   "menuMenus": {
+      "message": "Меню"
+   },
+   "menuMenusDefault": {
+      "message": "Меню"
+   },
+   "menuMoveLinesDown": {
+      "message": "Опустить текущую строку"
+   },
+   "menuMoveLinesUp": {
+      "message": "Поднять текущую строку"
+   },
+   "menuNewFile": {
+      "message": "Создать"
+   },
+   "menuOpenFile": {
+      "message": "Открыть"
+   },
+   "menuOpenProject": {
+      "message": "Открыть файл проекта"
+   },
+   "menuPrint": {
+      "message": "Печать"
+   },
+   "menuProject": {
+      "message": "Проект"
+   },
+   "menuRedo": {
+      "message": "Повтор"
+   },
+   "menuRefreshDir": {
+      "message": "Обновить папки"
+   },
+   "menuRemoveAllDirs": {
+      "message": "Удалить все папки"
+   },
+   "menuReplayMacro": {
+      "message": "Повторить макрос"
+   },
+   "menuReset": {
+      "message": "Сбросить настройки"
+   },
+   "menuResetKeyboard": {
+      "message": "Быстрые клавиши"
+   },
+   "menuResetMenus": {
+      "message": "Меню"
+   },
+   "menuResetUserPrefs": {
+      "message": "Общие"
+   },
+   "menuRevert": {
+      "message": "Восстановить"
+   },
+   "menuSave": {
+      "message": "Сохранить"
+   },
+   "menuSaveAs": {
+      "message": "Сохранить как..."
+   },
+   "menuSaveProject": {
+      "message": "Сохранить файл проекта"
+   },
+   "menuSelectLine": {
+      "message": "Выделить строку"
+   },
+   "menuSelectP": {
+      "message": "Выделить всё"
+   },
+   "menuSelectToMatch": {
+      "message": "Выделить до совпадения"
+   },
+   "menuSelectWord": {
+      "message": "Выделить слово"
+   },
+   "menuSetNewline": {
+      "message": "Режим новой строки"
+   },
+   "menuSettings": {
+      "message": "Настройки"
+   },
+   "menuSortLines": {
+      "message": "Отсортировать строки по алфавиту"
+   },
+   "menuSpacesToTabs": {
+      "message": "Пробелы в табы"
+   },
+   "menuSplitLine": {
+      "message": "Разбить строки"
+   },
+   "menuTabsToSpaces": {
+      "message": "Табы в пробелы"
+   },
+   "menuToLowercase": {
+      "message": "Преобразовать в строчные"
+   },
+   "menuToUppercase": {
+      "message": "Преобразовать в ПРОПИСНЫЕ"
+   },
+   "menuToggleComment": {
+      "message": "Закомментировать строку"
+   },
+   "menuToggleMacro": {
+      "message": "Старт/стоп записи макроса"
+   },
+   "menuTools": {
+      "message": "Инструменты"
+   },
+   "menuTrimWhitespace": {
+      "message": "Удалить пробелы в конце строк"
+   },
+   "menuUndo": {
+      "message": "Отмена"
+   },
+   "menuUserPrefs": {
+      "message": "Общие"
+   },
+   "menuUserPrefsDefault": {
+      "message": "Общие"
+   },
+   "menuWordCount": {
+      "message": "Подсчёт слов"
+   },
+   "menuWrapToPrint": {
+      "message": "Удалить пробелы и табуляцию"
+   },
+   "paletteExecuting": {
+      "message": "Выполнение $1..."
+   },
+   "projectNoCurrentProject": {
+      "message": "Нет открытых проектов."
+   },
+   "recordingMacro": {
+      "message": "Запись макроса..."
+   },
+   "setSyntax": {
+      "message": "Установить синтаксис: $1"
+   },
+   "setTheme": {
+      "message": "Установить тему: $1"
+   }
+}

@@ -1,0 +1,79 @@
+<html>
+<head>
+  <link rel="stylesheet" href="../js/deps/bootstrap-dist/css/bootstrap.min.css" type="text/css"/>
+
+  <script src="../js/deps/jquery-1.7.2.js"></script> <!-- modified to remove IE9 try/catch exception handling/detection -->
+  <script src="../js/deps/jquery.twinkle-0.5.0.js"></script>
+  <script src="../js/deps/bootstrap-dist/js/bootstrap.min.js"></script>
+  <script src="../js/deps/underscore.js"></script>
+
+  <script src="../js/common.js"></script>
+
+  <script src="../js/collection.js"></script>
+  <script src="../js/item.js"></script>
+
+  <script src="../js/tracker.js"></script>
+  <script src="../js/torrent.js"></script>
+  <script src="../js/torrentsettings.js"></script>
+  <script src="../js/peer.js"></script>
+  <script src="../js/swarm.js"></script>
+  <script src="../js/client.js"></script>
+  <script src="../js/options.js"></script>
+  <script src="../js/app.js"></script>
+
+  <script src="options.js"></script>
+
+<style>
+
+</style>
+
+
+</head>
+<body style="padding:5px">
+
+
+
+
+<nav class="navbar navbar-default" role="navigation">
+
+  <div class="navbar-header">
+    <h4>JSTorrent Options</h4>
+  </div>
+</nav>
+
+<!--form role="form"-->
+
+
+  <div class="form-group">
+    <label for="exampleInputFile">File Download Location</label>
+    <!--input type="button" id="exampleInputFile" value="Choose"-->
+
+
+    <input type="button" disabled="disabled" id="button-choose-download" class="btn btn-default" value="Choose" />
+
+    <p class="help-block">New Torrents will be downloaded to this folder.<br />
+    <span id="current-location"></span></p>
+  </div>
+
+<div id="auto_options">
+</div>
+
+<!--input type="button" id="request-identity" value="Request Identity" /-->
+  <!--div class="checkbox">
+    <label>
+      <input type="checkbox"> Option text 1
+    </label>
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Option text 2
+    </label>
+  </div-->
+
+<!--/form-->
+
+<div id="full_version_upsell" style="display:none; position:absolute; bottom: 5px">Sorry, there are not very many options yet. Please purchase <a href="https://chrome.google.com/webstore/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb" target="_blank">JSTorrent full version</a> to show your support of continued development of this program.</div>
+
+</body>
+</html>

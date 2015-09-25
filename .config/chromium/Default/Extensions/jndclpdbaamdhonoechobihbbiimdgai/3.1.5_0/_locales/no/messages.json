@@ -1,0 +1,406 @@
+{
+  "APP_NAME": {
+    "message": "Gjenopprettingsverktøy for Chromebook",
+    "description": "Name of the application. Cannot exceed 45 characters."
+  },
+  "APP_SHORT_NAME": {
+    "message": "Gjenopprett",
+    "description": "A short name for the app shown when space is limited. Fewer than 12 characters preferred."
+  },
+  "APP_DESCRIPTION": {
+    "message": "Opprett et gjenopprettingsmedium for Chromebooken din.",
+    "description": "High-level description of the application"
+  },
+  "STEP": {
+    "message": "Trinn",
+    "description": "Shown as part of the text 'step %x of %x'"
+  },
+  "OF": {
+    "message": "av",
+    "description": "Shown as part of the text 'step %x of %x'"
+  },
+  "MENU_ITEM_ERASE_RECOVERY_MEDIA": {
+    "message": "Slett gjenopprettingsmediet",
+    "description": "Text for the menu item to erase recovery media"
+  },
+  "MENU_ITEM_USE_LOCAL_IMAGE": {
+    "message": "Bruk lokalt bilde",
+    "description": "Text for the menu item to use a local file as the source image for the recovery disk"
+  },
+  "MENU_ITEM_SEND_FEEDBACK": {
+    "message": "Send tilbakemelding",
+    "description": "Text for the menu item to send feedback"
+  },
+  "GET_STARTED_BUTTON_TEXT": {
+    "message": "Kom i gang",
+    "description": "Text for the 'get started' button at the bottom of the screen"
+  },
+  "CONTINUE_BUTTON_TEXT": {
+    "message": "Fortsett",
+    "description": "Text for the continue button at the bottom of the screen"
+  },
+  "GO_BACK_BUTTON_TEXT": {
+    "message": "Gå tilbake",
+    "description": "Text for the back button at the bottom of the screen"
+  },
+  "LEARN_MORE_LINK_TEXT": {
+    "message": "Finn ut mer",
+    "description": "Text for the 'learn more' link at the bottom left of the screen"
+  },
+  "CREATE_NOW_BUTTON_TEXT": {
+    "message": "Opprett nå",
+    "description": "Text for the button to start the recovery disk creation"
+  },
+  "ERASE_NOW_BUTTON_TEXT": {
+    "message": "Slett nå",
+    "description": "Text for the button to start the recovery disk erasure"
+  },
+  "CANCEL_BUTTON_TEXT": {
+    "message": "Avbryt",
+    "description": "Text for the cancel button"
+  },
+  "DONE_BUTTON_TEXT": {
+    "message": "Ferdig",
+    "description": "Text for the button to close the application after the recovery disk has been created / Text for the button to go back to the start of the application after the recovery disk has been erased"
+  },
+  "CREATE_ANOTHER_BUTTON_TEXT": {
+    "message": "Opprett en til",
+    "description": "Text for the button to go back to the start of the application after the recovery disk has been created"
+  },
+  "GIGABYTE_ABBREVIATION": {
+    "message": "GB",
+    "description": "The abbreviation for gigabyte"
+  },
+  "COMPLETED": {
+    "message": "fullført",
+    "description": "Shown as part of the text 'x% completed'"
+  },
+  "SECONDS_REMAINING": {
+    "message": "$seconds$ sekunder gjenstår.",
+    "description": "A message that indicates the time remaining for an operation.",
+    "placeholders": {
+      "seconds": {
+        "content": "$1",
+        "example": "The number of seconds remaining."
+      }
+    }
+  },
+  "MINUTES_REMAINING": {
+    "message": "$minutes$ minutter gjenstår.",
+    "description": "A message that indicates the time remaining for an operation.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "The number of minutes remaining."
+      }
+    }
+  },
+  "HOURS_REMAINING": {
+    "message": "$hours$ timer gjenstår.",
+    "description": "A message that indicates the time remaining for an operation.",
+    "placeholders": {
+      "hours": {
+        "content": "$1",
+        "example": "The number of hours remaining."
+      }
+    }
+  },
+  "WELCOME_TITLE": {
+    "message": "Opprett et gjenopprettingsmedium for Chromebooken din",
+    "description": "Title for the welcome screen"
+  },
+  "WELCOME_TEXT": {
+    "message": "Du kommer til å trenge en minnepinne eller et SD-kort med kapasitet på minimum 4 GB. Alle dataene på minnepinnen eller SD-kortet blir slettet.",
+    "description": "Text on the welcome screen"
+  },
+  "LOADING_CONFIG_TEXT": {
+    "message": "Forbereder … ",
+    "description": "Message to user indicating that the app is downloading latest information about recovery for different devices. It is preparing itself to be used."
+  },
+  "UNSUPPORTED_TITLE": {
+    "message": "Plattformen din støttes foreløpig ikke",
+    "description": "Title displayed when the user's platform is not supported."
+  },
+  "UNSUPPORTED_TITLE_WIN": {
+    "message": "Windows støttes ikke foreløpig",
+    "description": "Title displayed when the user's platform is not supported."
+  },
+  "UNSUPPORTED_TITLE_LINUX": {
+    "message": "Linux støttes ikke foreløpig",
+    "description": "Title displayed when the user's platform is not supported."
+  },
+  "UNSUPPORTED_TITLE_MAC": {
+    "message": "Mac støttes ikke foreløpig",
+    "description": "Title displayed when the user's platform is not supported."
+  },
+  "UNSUPPORTED_TEXT": {
+    "message": "Dessverre støttes ikke plattformen din foreløpig. Gå til <a href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook-brukerstøtte</a> for mer informasjon.",
+    "description": "Text displayed when the user's platform is not supported."
+  },
+  "UNSUPPORTED_TEXT_MAC": {
+    "message": "Dessverre støttes Mac bare på M37 eller nyere. Oppdater Chrome til M37. Du må kanskje <a href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">bytte til beta-kanalen</a>.",
+    "description": "Text displayed when the user's platform is not supported."
+  },
+  "SELECT_IMAGE_TITLE": {
+    "message": "Identifiser Chromebooken din",
+    "description": "Title for the image selection screen"
+  },
+  "SELECT_IMAGE_TEXT": {
+    "message": "Skriv inn modellnummeret til Chromebooken for å gjenopprette den. Dette nummeret finner du på gjenopprettingsskjermbildet.",
+    "description": "Prompts the user to enter a model number. Refers to the recovery screen."
+  },
+  "SELECT_IMAGE_THIS_CHROMEBOOKS_MODEL_NUMBER": {
+    "message": "Skriv inn følgende for denne Chromebooken:",
+    "description": "Label that precedes a HWID string (e.g.: LINK D25-E5M-K75) that is the model number for the Chromebook the user is using. The HWID string is hyperlinked and clicking on it will populate the value into the model number input field. In English, this would for example read 'For this Chromebook, enter _LINK D25-E5M-K75_'"
+  },
+  "SELECT_IMAGE_SELECT_FROM_LIST_LINK_TEXT": {
+    "message": "Velg en modell fra en liste",
+    "description": "Text for 'select by model' link"
+  },
+  "SELECT_IMAGE_SELECT_MANUFACTURER_PLACEHOLDER": {
+    "message": "Velg en produsent",
+    "description": "Prompts the user to select a manufacturer (text is shown inside the dropdown)"
+  },
+  "SELECT_IMAGE_SELECT_PRODUCT_PLACEHOLDER": {
+    "message": "Velg et produkt",
+    "description": "Prompts the user to select a product (text is shown inside the dropdown)"
+  },
+  "SELECT_IMAGE_SELECT_BY_HWID_LINK_TEXT": {
+    "message": "Skriv inn et modellnummer direkte",
+    "description": "Text for the 'select by model number' link"
+  },
+  "SELECT_TARGET_TITLE": {
+    "message": "Sett inn USB-flashstasjonen eller SD-kortet ditt",
+    "description": "Title for the screen where the user selects the target USB device"
+  },
+  "SELECT_TARGET_DETECTING": {
+    "message": "Leter",
+    "description": "Indicates that the app is currently detecting the list of USB devices"
+  },
+  "SELECT_TARGET_NO_DEVICES_FOUND": {
+    "message": "Fant ingen USB-stasjoner eller SD-kort",
+    "description": "Indicates that no USB devices were found"
+  },
+  "SELECT_TARGET_SELECT_DEVICE": {
+    "message": "Velg mediet du ønsker å bruke.",
+    "description": "Prompts the user to select a drive"
+  },
+  "SELECT_TARGET_SELECT_DEVICE_PLACEHOLDER": {
+    "message": "Velg",
+    "description": "Prompts the user to select a drive (text is shown inside the dropdown)"
+  },
+  "SELECT_TARGET_HIGH_CAPACITY_WARNING_HTML": {
+    "message": "<b>Advarsel:</b> Er dette riktig medium?",
+    "description": "Warning that is shown if the user selects a drive with a high capacity"
+  },
+  "SELECT_TARGET_LOW_CAPACITY_ERROR": {
+    "message": "Mediet ditt må være på minst 4 GB.",
+    "description": "Error that is shown if the user selects a drive with not enough capacity"
+  },
+  "CONFIRM_TITLE": {
+    "message": "Opprett en gjenopprettingsavbildning",
+    "description": "Title for the confirmation screen"
+  },
+  "CONFIRM_MESSAGE_HTML": {
+    "message": "<b>Viktig:</b> Alle dataene og partisjonene på gjenopprettingsmediet ditt slettes.",
+    "description": "Important message, indicates what the application is going to do"
+  },
+  "CONFIRM_CANCELLED_MESSAGE_HTML": {
+    "message": "Avbrutt. Klikk på &laquo;Opprett nå&raquo; for å prøve på nytt.<br><br>For å slette gjenopprettingsmediet ditt klikker du på tannhjulikonet i øvre høyre hjørne.",
+    "description": "Indicates that the operation has been cancelled"
+  },
+  "WRITE_TITLE": {
+    "message": "Oppretting av et gjenopprettingsavbildning",
+    "description": "Title of the screen where the drive is being created"
+  },
+  "WRITE_MESSAGE": {
+    "message": "Ikke fjern gjenopprettingsmediet.",
+    "description": "Shown on the screen where the drive is being created"
+  },
+  "STAGE_DOWNLOAD": {
+    "message": "Laster ned",
+    "description": "Status text that is shown when the drive is being created"
+  },
+  "STAGE_DOWNLOADVERIFY": {
+    "message": "Bekrefter nedlastingen",
+    "description": "Status text that is shown when the drive is being created"
+  },
+  "STAGE_VERIFYDOWNLOAD": {
+    "message": "Bekrefter nedlastingen",
+    "description": "Status text that is shown when the drive is being created"
+  },
+  "STAGE_UNPACK": {
+    "message": "Pakker ut",
+    "description": "Status text that is shown when the drive is being created"
+  },
+  "STAGE_UNZIP": {
+    "message": "Pakker ut",
+    "description": "Status text that is shown when the drive is being created"
+  },
+  "STAGE_WRITE": {
+    "message": "Skriver ",
+    "description": "Status text that is shown when the drive is being created"
+  },
+  "STAGE_VERIFY": {
+    "message": "Bekrefter",
+    "description": "Status text that is shown when the drive is being created"
+  },
+  "STAGE_VERIFYWRITE": {
+    "message": "Bekrefter",
+    "description": "Status text that is shown when the drive is being created"
+  },
+  "STAGE_COMPLETE": {
+    "message": "Fullført",
+    "description": "Status text that is shown when the drive is being created"
+  },
+  "COMPLETE_TITLE": {
+    "message": "Fullført! Gjenopprettingsmediet ditt er klart",
+    "description": "Title of the completed screen"
+  },
+  "COMPLETE_MESSAGE": {
+    "message": "Nå kan du fjerne gjenopprettingsmediet ditt.",
+    "description": "Shown on the completed screen"
+  },
+  "COMPLETE_BULLET1": {
+    "message": "For å gjenopprette Chromebooken din må du koble gjenopprettingsmediet ditt til den.",
+    "description": "Shown on the completed screen"
+  },
+  "COMPLETE_BULLET2": {
+    "message": "Etter gjenopprettingen kan du slette gjenopprettingsmediet ved hjelp av dette verktøyet.",
+    "description": "Shown on the completed screen"
+  },
+  "ERASE_TITLE": {
+    "message": "Slett gjenopprettingsmedium",
+    "description": "Title for the screens related to erasing"
+  },
+  "ERASE_SELECT_TARGET_DETECTING": {
+    "message": "Leter",
+    "description": "Indicates that the app is currently detecting the list of USB devices"
+  },
+  "ERASE_SELECT_TARGET_NO_DEVICES_FOUND": {
+    "message": "Fant ingen USB-stasjoner eller SD-kort",
+    "description": "Indicates that no USB devices were found"
+  },
+  "ERASE_SELECT_TARGET_SELECT_DEVICE": {
+    "message": "Velg gjenopprettingsmediet du ønsker å slette.",
+    "description": "Prompts the user to select a drive"
+  },
+  "ERASE_SELECT_TARGET_SELECT_DEVICE_PLACEHOLDER": {
+    "message": "Velg",
+    "description": "Prompts the user to select a drive (text is shown inside the dropdown)"
+  },
+  "ERASE_SELECT_TARGET_HIGH_CAPACITY_WARNING_HTML": {
+    "message": "<b>Advarsel:</b> Er dette riktig diskstasjon?",
+    "description": "Warning that is shown if the user selects a drive with a high capacity"
+  },
+  "ERASE_CONFIRM_MESSAGE": {
+    "message": "Gjenopprettingsavbildningen og alle partisjonene på gjenopprettingsmediet ditt blir slettet.",
+    "description": "Important message, indicates what the application is going to do"
+  },
+  "ERASE_PROGRESS_TITLE": {
+    "message": "Gjenopprettingsmediet ditt slettes",
+    "description": "Title for the screen where the drive is being erased"
+  },
+  "ERASE_PROGRESS_TEXT": {
+    "message": "Ikke fjern gjenopprettingsmediet.",
+    "description": "Shown when the drive is being erased"
+  },
+  "ERASE_COMPLETE_TITLE": {
+    "message": "Gjenopprettingsmediet ditt er slettet.",
+    "description": "Title for erase completed screen"
+  },
+  "ERASE_COMPLETE_BULLET1": {
+    "message": "USB-stasjonen eller SD-kortet er klargjort for formatering.",
+    "description": "Shown on the erase completed screen"
+  },
+  "ERASE_COMPLETE_BULLET2": {
+    "message": "Formatér ved hjelp av et formateringsverktøy i operativsystemet ditt.",
+    "description": "Shown on the erase completed screen"
+  },
+  "ERRMSG_PLEASE_TRY_AGAIN": {
+    "message": "Prøv på nytt.",
+    "description": "Error text that is shown after the error message"
+  },
+  "APIERRMSG_UNKNOWN": {
+    "message": "Ukjent feil: $errorCode$.",
+    "description": "Error message that is shown if no matching error message can be found",
+    "placeholders": {
+      "errorCode": {
+        "content": "$1",
+        "example": "Error code"
+      }
+    }
+  },
+  "APIERRMSG_ABORTED": {
+    "message": "Operasjonen er avbrutt.",
+    "description": "Error message that is shown if the operation is aborted"
+  },
+  "APIERRMSG_OPERATION_ALREADY_IN_PROGRESS": {
+    "message": "En operasjon er allerede i gang.",
+    "description": "Error message that is shown if user tries to start a new write operation and there is already one in progress"
+  },
+  "APIERRMSG_UNSUPPORTED_OPERATION": {
+    "message": "Prosedyren støttes ikke.",
+    "description": "Error message that is shown if the user triggers an unsupported operation"
+  },
+  "APIERRMSG_DEVICE_LIST_ERROR": {
+    "message": "Fant ikke noen USB-stasjoner eller SD-kort.",
+    "description": "Error message that is shown if there was an error trying to detect removable USB drive and SD cards"
+  },
+  "APIERRMSG_FILE_INVALID": {
+    "message": "Filen er ugyldig.",
+    "description": "Error message that is shown if the file to write is not valid"
+  },
+  "APIERRMSG_DOWNLOAD_CANCELLED": {
+    "message": "Nedlastingen er avbrutt.",
+    "description": "Error message that is shown if the user cancels the write operation during download"
+  },
+  "APIERRMSG_DOWNLOAD_HASH_MISMATCH": {
+    "message": "Filen er ugyldig.",
+    "description": "Error message that is shown if the downloaded file doesn't hash to the expected value"
+  },
+  "APIERRMSG_DOWNLOAD_INTERRUPTED": {
+    "message": "Nedlastingen er avbrutt.",
+    "description": "Error message that is shown if the downloaded was interrupted for any reason"
+  },
+  "APIERRMSG_URL_INVALID": {
+    "message": "Filen ble ikke funnet.",
+    "description": "Error message that is shown if no file is found at the URL to download"
+  },
+  "APIERRMSG_UNZIP_ERROR": {
+    "message": "Kan ikke pakke ut filen.",
+    "description": "Error message that is shown if the file cannot be unzipped for any reason"
+  },
+  "APIERRMSG_UNZIP_INVALID_ARCHIVE": {
+    "message": "Ugyldig zip-fil.",
+    "description": "Error message that is shown if the file is not a valid ZIP file"
+  },
+  "APIERRMSG_VERIFICATION_FAILED": {
+    "message": "Kunne ikke verifisere avbildningen.",
+    "description": "Error message that is shown if the image was not written properly"
+  },
+  "ERRMSG_RECOVERY_CONFIG_DOWNLOAD_FAILURE": {
+    "message": "Kunne ikke laste ned konfigurasjonsfilen. Bare funksjoner uten nett er tilgjengelige.",
+    "description": "Error message that is shown if the app's configuration file cannot be downloaded. In this case, the app will only be able to support offline features."
+  },
+  "WARNING_OFFLINE": {
+    "message": "Enheten er frakoblet. Bare funksjoner uten nett er tilgjengelige.",
+    "description": "Warning message that is shown to the user when his device is offline."
+  },
+  "HWID_KEEP_TYPING": {
+    "message": "Ingen modell er funnet ennå. Fortsett å skrive.",
+    "description": "Message shown to user when they have no yet entered enough info to determine a specific device."
+  },
+  "HWID_MATCH_FOUND": {
+    "message": "Fant et treff",
+    "description": "Message shown to user when they have entered enough info to determine a specific device."
+  },
+  "HWID_MATCH_FOUND_AND_CHECKSUM_VERIFIED": {
+    "message": "Fant et treff med nøyaktig det samme modellnavnet",
+    "description": "Message shown to user when they have entered a full model number and the checksum is verified."
+  },
+  "HWID_INVALID_MODEL": {
+    "message": "Ugyldig modellnummer. Sjekk det du skrev inn.",
+    "description": "Message shown to user when it's clear that what they have entered doesn't match any valid model number."
+  }
+}

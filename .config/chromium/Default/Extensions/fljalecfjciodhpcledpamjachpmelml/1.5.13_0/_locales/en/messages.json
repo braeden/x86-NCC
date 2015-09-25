@@ -1,0 +1,302 @@
+{
+   "aboutHomePage": {
+      "message": "Home Page"
+   },
+   "aboutLicense": {
+      "message": "Caret is available under a GPL license, which means that the \u003Ca href=\"https://github.com/thomaswilburn/Caret\" target=_blank>source code\u003C/a> is freely available for you to use and modify as you see fit. If you find Caret useful, consider donating to the Free Software Foundation's \u003Ca href=\"http://endsoftwarepatents.org/donate\" target=_blank>Fund to End Software Patents\u003C/a>."
+   },
+   "aboutSupport": {
+      "message": "Support"
+   },
+   "aboutWrittenBy": {
+      "message": "Written by \u003Ca href=\"http://thomaswilburn.net\" target=_blank>Thomas Wilburn\u003C/a>"
+   },
+   "dialogCancel": {
+      "message": "Cancel"
+   },
+   "dialogDiscard": {
+      "message": "Discard"
+   },
+   "dialogModifiedBackground": {
+      "message": "This file has been modified since the last time it was saved. Would you like to reload?"
+   },
+   "dialogModifiedUnsaved": {
+      "message": "$1 has been modified.\nDo you want to save changes?"
+   },
+   "dialogOK": {
+      "message": "OK"
+   },
+   "dialogReload": {
+      "message": "Reload"
+   },
+   "dialogSave": {
+      "message": "Save"
+   },
+   "dialogUnsaved": {
+      "message": "$1 has unsaved work."
+   },
+   "editorWordCount": {
+      "message": "$1 characters, $2 words, $3 lines"
+   },
+   "fileAutosaving": {
+      "message": "Executing autosave for all tabs..."
+   },
+   "fileLoaded": {
+      "message": "Loaded $1, $2 bytes"
+   },
+   "loading": {
+      "message": "loading"
+   },
+   "menuAPI": {
+      "message": "External Commands"
+   },
+   "menuAboutCaret": {
+      "message": "About Caret"
+   },
+   "menuAddDir": {
+      "message": "Add Directory"
+   },
+   "menuBlockComment": {
+      "message": "Toggle Block Comment"
+   },
+   "menuCheckForUpdates": {
+      "message": "Check for Updates"
+   },
+   "menuClearProject": {
+      "message": "Clear Project"
+   },
+   "menuClose": {
+      "message": "Close File"
+   },
+   "menuCommandPalette": {
+      "message": "Open Command Palette"
+   },
+   "menuDefaults": {
+      "message": "View Defaults"
+   },
+   "menuEdit": {
+      "message": "Edit"
+   },
+   "menuEditProject": {
+      "message": "Edit Current Project"
+   },
+   "menuEmergencyReset": {
+      "message": "Emergency Reset"
+   },
+   "menuExit": {
+      "message": "Exit"
+   },
+   "menuFile": {
+      "message": "File"
+   },
+   "menuFind": {
+      "message": "Find"
+   },
+   "menuFindNext": {
+      "message": "Find Next"
+   },
+   "menuFindReplace": {
+      "message": "Find/Replace"
+   },
+   "menuGoToAnything": {
+      "message": "Go To..."
+   },
+   "menuGoToLine": {
+      "message": "Go to Line"
+   },
+   "menuGoToRef": {
+      "message": "Go to Reference"
+   },
+   "menuGoToSearch": {
+      "message": "Go to Search"
+   },
+   "menuHelp": {
+      "message": "Help"
+   },
+   "menuInsertFromFile": {
+      "message": "Insert From File"
+   },
+   "menuJoinLines": {
+      "message": "Join Lines"
+   },
+   "menuKeyboard": {
+      "message": "Keyboard"
+   },
+   "menuKeyboardDefault": {
+      "message": "Keyboard (Defaults)"
+   },
+   "menuMenus": {
+      "message": "Menus"
+   },
+   "menuMenusDefault": {
+      "message": "Menus (Defaults)"
+   },
+   "menuMoveLinesDown": {
+      "message": "Move Lines Down"
+   },
+   "menuMoveLinesUp": {
+      "message": "Move Lines Up"
+   },
+   "menuNewFile": {
+      "message": "New File"
+   },
+   "menuOpenFile": {
+      "message": "Open File"
+   },
+   "menuOpenProject": {
+      "message": "Open Project File"
+   },
+   "menuPrint": {
+      "message": "Print"
+   },
+   "menuProject": {
+      "message": "Project"
+   },
+   "menuRedo": {
+      "message": "Redo"
+   },
+   "menuRefreshDir": {
+      "message": "Refresh Directories"
+   },
+   "menuRemoveAllDirs": {
+      "message": "Remove All Directories"
+   },
+   "menuReplayMacro": {
+      "message": "Replay Macro"
+   },
+   "menuReset": {
+      "message": "Reset"
+   },
+   "menuResetKeyboard": {
+      "message": "Reset Keyboard"
+   },
+   "menuResetMenus": {
+      "message": "Reset Menus"
+   },
+   "menuResetTheme": {
+      "message": "Reset Custom Theme"
+   },
+   "menuResetUserPrefs": {
+      "message": "Reset User Preferences"
+   },
+   "menuRevert": {
+      "message": "Revert"
+   },
+   "menuSave": {
+      "message": "Save File"
+   },
+   "menuSaveAs": {
+      "message": "Save File As..."
+   },
+   "menuSaveProject": {
+      "message": "Save Project File"
+   },
+   "menuSelectLine": {
+      "message": "Select Line"
+   },
+   "menuSelectP": {
+      "message": "Select Paragraph"
+   },
+   "menuSelectToMatch": {
+      "message": "Select to Matching"
+   },
+   "menuSelectWord": {
+      "message": "Select Word"
+   },
+   "menuSetNewline": {
+      "message": "Set Newline Mode"
+   },
+   "menuSettings": {
+      "message": "Settings"
+   },
+   "menuSortLines": {
+      "message": "Sort Lines"
+   },
+   "menuSpacesToTabs": {
+      "message": "Convert Spaces to Tabs"
+   },
+   "menuSplitLine": {
+      "message": "Split Line"
+   },
+   "menuTabsToSpaces": {
+      "message": "Convert Tabs to Spaces"
+   },
+   "menuTheme": {
+      "message": "Custom Theme"
+   },
+   "menuThemeDefault": {
+      "message": "Custom Theme (Defaults)"
+   },
+   "menuToLowercase": {
+      "message": "To Lowercase"
+   },
+   "menuToUppercase": {
+      "message": "To Uppercase"
+   },
+   "menuToggleComment": {
+      "message": "Toggle Comment"
+   },
+   "menuToggleMacro": {
+      "message": "Toggle Macro Recording"
+   },
+   "menuTools": {
+      "message": "Tools"
+   },
+   "menuTrimWhitespace": {
+      "message": "Trim Trailing Whitespace"
+   },
+   "menuUndo": {
+      "message": "Undo"
+   },
+   "menuUserPrefs": {
+      "message": "User Preferences"
+   },
+   "menuUserPrefsDefault": {
+      "message": "User Preferences (Defaults)"
+   },
+   "menuWordCount": {
+      "message": "Word Count"
+   },
+   "menuWrapToPrint": {
+      "message": "Wrap to Print Margin"
+   },
+   "notificationNoUpdateDetail": {
+      "message": "There aren't any updates for Caret at this time."
+   },
+   "notificationNoUpdateTitle": {
+      "message": "No updates available"
+   },
+   "notificationUpdateAvailable": {
+      "message": "Caret: Update available"
+   },
+   "notificationUpdateDetail": {
+      "message": "An update to version $1 is available. Would you like to update and restart now?"
+   },
+   "notificationUpdateOK": {
+      "message": "Yes, update and restart"
+   },
+   "notificationUpdateWait": {
+      "message": "No thanks"
+   },
+   "notificationUpdated": {
+      "message": "Caret has been updated"
+   },
+   "notificationUpdatedDetail": {
+      "message": "Now at version $1. Click to see the changelog in the Chrome store."
+   },
+   "paletteExecuting": {
+      "message": "Executing $1..."
+   },
+   "projectNoCurrentProject": {
+      "message": "No project currently open."
+   },
+   "recordingMacro": {
+      "message": "Recording macro..."
+   },
+   "setSyntax": {
+      "message": "Set Syntax: $1"
+   },
+   "setTheme": {
+      "message": "Set Theme: $1"
+   }
+}

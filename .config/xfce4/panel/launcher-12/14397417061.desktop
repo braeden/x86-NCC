@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Proccessing
+Comment=
+Exec=/home/braeden/processing/processing
+Icon=/home/braeden/processing/Logo.png
+Path=/home/braeden/sketchbook
+Terminal=false
+StartupNotify=false

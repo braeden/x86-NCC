@@ -1,0 +1,120 @@
+[Deluge]
+row=5
+col=0
+
+[TrueCrypt]
+row=4
+col=11
+
+[Terminator]
+row=3
+col=11
+
+[Synapse]
+row=5
+col=11
+
+[Android Studio]
+row=0
+col=10
+
+[VLC media player]
+row=0
+col=11
+
+[7f41912d6d1347076a343eb3a78c6bf0.png]
+row=4
+col=1
+
+[libreoffice-startcenter.desktop]
+row=3
+col=10
+
+[Wallpaper]
+row=4
+col=2
+
+[MakerWare]
+row=5
+col=10
+
+[Other]
+row=0
+col=2
+
+[File Manager]
+row=3
+col=2
+
+[Terminal_Commands.odt]
+row=1
+col=3
+
+[GIMP Image Editor]
+row=1
+col=11
+
+[Thunderbird Mail]
+row=2
+col=11
+
+[File Systems]
+row=5
+col=1
+
+[Tor Browser]
+row=2
+col=10
+
+[OpenShot Video Editor]
+row=1
+col=12
+
+[Chromium Web Browser]
+row=4
+col=0
+
+[Arduino IDE]
+row=4
+col=10
+
+[Synaptic Package Manager]
+row=0
+col=12
+
+[Firefox Web Browser]
+row=1
+col=10
+
+[EFI-SYSTEM]
+row=0
+col=0
+
+[OEM]
+row=1
+col=1
+
+[28 GB Filesystem]
+row=2
+col=2
+
+[ROOT-A]
+row=3
+col=0
+
+[8.1 GB Filesystem]
+row=2
+col=1
+
+[Trash]
+row=3
+col=1
+
+[File System]
+row=2
+col=3
+
+[Home]
+row=0
+col=1
+

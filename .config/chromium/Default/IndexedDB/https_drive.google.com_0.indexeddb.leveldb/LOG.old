@@ -1,0 +1,25 @@
+2015/09/22-09:54:40.869 14591 Reusing MANIFEST /home/braeden/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000370
+2015/09/22-09:54:40.869 14591 Recovering log #864
+2015/09/22-09:54:40.870 14591 Reusing old log /home/braeden/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000864.log 
+2015/09/22-09:55:24.961 15548 Level-0 table #868: started
+2015/09/22-09:55:25.226 15548 Level-0 table #868: 7515962 bytes OK
+2015/09/22-09:55:25.242 15548 Delete type=0 #864
+2015/09/22-10:14:09.878 15548 Level-0 table #870: started
+2015/09/22-10:14:10.128 15548 Level-0 table #870: 7399770 bytes OK
+2015/09/22-10:14:10.154 15548 Delete type=0 #867
+2015/09/22-10:14:10.154 15548 Compacting 4@0 + 3@1 files
+2015/09/22-10:14:10.463 15548 Generated table #871: 4 keys, 3697566 bytes
+2015/09/22-10:14:10.750 15548 Generated table #872: 8 keys, 2427727 bytes
+2015/09/22-10:14:10.762 15548 Generated table #873: 20 keys, 12943 bytes
+2015/09/22-10:14:10.762 15548 Compacted 4@0 + 3@1 files => 6138236 bytes
+2015/09/22-10:14:10.766 15548 compacted to: files[ 0 3 1 0 0 0 0 ]
+2015/09/22-10:14:10.766 15548 Delete type=2 #863
+2015/09/22-10:14:10.767 15548 Delete type=2 #865
+2015/09/22-10:14:10.768 15548 Delete type=2 #859
+2015/09/22-10:14:10.771 15548 Delete type=2 #860
+2015/09/22-10:14:10.773 15548 Delete type=2 #870
+2015/09/22-10:14:10.777 15548 Delete type=2 #868
+2015/09/22-10:14:10.778 15548 Delete type=2 #861
+2015/09/22-10:34:10.901 15548 Level-0 table #875: started
+2015/09/22-10:34:11.214 15548 Level-0 table #875: 7401045 bytes OK
+2015/09/22-10:34:11.251 15548 Delete type=0 #869

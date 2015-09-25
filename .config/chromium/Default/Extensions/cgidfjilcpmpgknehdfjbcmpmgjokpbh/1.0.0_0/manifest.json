@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://github.com"
+      },
+      "urls": [ "http://github.com/" ]
+   },
+   "description": "Build software better, together.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlr4f+tb28HWZb8ir1TEDOBzOQFm4iu9KUDaVAqZGVljx03PcyTpcBaAgmsDHxX/eQO95kYApRZ8odtk1mrN/62xJtQnLykK1KKBUmMZw/De6cUcYX0zcRkSWtle45Dp4MuUzkwozivNpQ9K66Gjcr6RuM/4a/JjwvE3AtV7J8Veo/5h5MMuiRL4LWAGqsYygrpmiicCjc1euKeQBD82+L1SfZbj3et9XYRt3o+eIEdiLv2KBhwx4n86Fzl8WYDON9S2Lm2thM7hN2w7Qcig8K7KCZGDzcmrYk/mnUuvLjLfLEYjyd2VGY0K92DHJHhEvpFAbIZwCGnT5iagkyQ6ODwIDAQAB",
+   "manifest_version": 2,
+   "name": "GitHub",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}

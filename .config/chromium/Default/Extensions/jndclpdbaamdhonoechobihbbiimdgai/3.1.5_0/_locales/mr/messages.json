@@ -1,0 +1,406 @@
+{
+   "APIERRMSG_ABORTED": {
+      "description": "Error message that is shown if the operation is aborted",
+      "message": "ऑपरेशन मध्ये व्यत्यय आला."
+   },
+   "APIERRMSG_DEVICE_LIST_ERROR": {
+      "description": "Error message that is shown if there was an error trying to detect removable USB drive and SD cards",
+      "message": "USB ड्राइव्ह किंवा SD शोधण्यात अक्षम."
+   },
+   "APIERRMSG_DOWNLOAD_CANCELLED": {
+      "description": "Error message that is shown if the user cancels the write operation during download",
+      "message": "डाउनलोड रद्द झाले."
+   },
+   "APIERRMSG_DOWNLOAD_HASH_MISMATCH": {
+      "description": "Error message that is shown if the downloaded file doesn't hash to the expected value",
+      "message": "फाईल अवैध आहे."
+   },
+   "APIERRMSG_DOWNLOAD_INTERRUPTED": {
+      "description": "Error message that is shown if the downloaded was interrupted for any reason",
+      "message": "डाउनलोड करण्यात व्यत्यय आला."
+   },
+   "APIERRMSG_FILE_INVALID": {
+      "description": "Error message that is shown if the file to write is not valid",
+      "message": "फाईल अवैध आहे."
+   },
+   "APIERRMSG_OPERATION_ALREADY_IN_PROGRESS": {
+      "description": "Error message that is shown if user tries to start a new write operation and there is already one in progress",
+      "message": "एक ऑपरेशन प्रगतीपथावर आहे."
+   },
+   "APIERRMSG_UNKNOWN": {
+      "description": "Error message that is shown if no matching error message can be found",
+      "message": "अज्ञात त्रुटी: $errorCode$.",
+      "placeholders": {
+         "errorCode": {
+            "content": "$1",
+            "example": "Error code"
+         }
+      }
+   },
+   "APIERRMSG_UNSUPPORTED_OPERATION": {
+      "description": "Error message that is shown if the user triggers an unsupported operation",
+      "message": "असमर्थित ऑपरेशन."
+   },
+   "APIERRMSG_UNZIP_ERROR": {
+      "description": "Error message that is shown if the file cannot be unzipped for any reason",
+      "message": "फाईल अनझिप करण्यात अयशस्वी."
+   },
+   "APIERRMSG_UNZIP_INVALID_ARCHIVE": {
+      "description": "Error message that is shown if the file is not a valid ZIP file",
+      "message": "अवैध झिप फाईल."
+   },
+   "APIERRMSG_URL_INVALID": {
+      "description": "Error message that is shown if no file is found at the URL to download",
+      "message": "फाईल आढळली नाही."
+   },
+   "APIERRMSG_VERIFICATION_FAILED": {
+      "description": "Error message that is shown if the image was not written properly",
+      "message": "प्रतिमा सत्यापन अयशस्वी."
+   },
+   "APP_DESCRIPTION": {
+      "description": "High-level description of the application",
+      "message": "आपल्या Chromebook साठी पुनर्प्राप्ती माध्यम तयार करा."
+   },
+   "APP_NAME": {
+      "description": "Name of the application. Cannot exceed 45 characters.",
+      "message": "Chromebook पुनर्प्राप्ती उपयुक्तता"
+   },
+   "APP_SHORT_NAME": {
+      "description": "A short name for the app shown when space is limited. Fewer than 12 characters preferred.",
+      "message": "पुनर्प्राप्ती"
+   },
+   "CANCEL_BUTTON_TEXT": {
+      "description": "Text for the cancel button",
+      "message": "रद्द करा"
+   },
+   "COMPLETED": {
+      "description": "Shown as part of the text 'x% completed'",
+      "message": "पूर्ण झाले"
+   },
+   "COMPLETE_BULLET1": {
+      "description": "Shown on the completed screen",
+      "message": "आपले Chromebook पुनर्प्राप्त करण्यासाठी, आपल्या Chromebook मध्ये पुनर्प्राप्ती माध्यम प्लग करा."
+   },
+   "COMPLETE_BULLET2": {
+      "description": "Shown on the completed screen",
+      "message": "पुनर्प्राप्ती नंतर, आपण या उपयुक्ततेचा वापर करुन आपले पुनर्प्राप्ती माध्‍यम मिटवू शकता."
+   },
+   "COMPLETE_MESSAGE": {
+      "description": "Shown on the completed screen",
+      "message": "आपण आता आपले पुनर्प्रा‍प्ती माध्यम काढू शकता."
+   },
+   "COMPLETE_TITLE": {
+      "description": "Title of the completed screen",
+      "message": "यशस्वी! आपले पुनर्प्राप्ती माध्यम सज्ज आहे"
+   },
+   "CONFIRM_CANCELLED_MESSAGE_HTML": {
+      "description": "Indicates that the operation has been cancelled",
+      "message": "रद्द झाले. पुन्हा प्रयत्न करण्यासाठी &rdquo;आता तयार करा&rdquo; वर क्लिक करा.\u003Cbr>\u003Cbr>आपले पुनर्प्राप्ती माध्यम मि‍टविण्यासाठी, उजव्या शीर्ष कोपर्‍यातील गीअर चिन्हावर क्लिक करा."
+   },
+   "CONFIRM_MESSAGE_HTML": {
+      "description": "Important message, indicates what the application is going to do",
+      "message": "\u003Cb>महत्वाचे:\u003C/b> आपल्या पुनर्प्राप्ती माध्यमावरील सर्व डेटा आणि विभाजने हटविले जातील."
+   },
+   "CONFIRM_TITLE": {
+      "description": "Title for the confirmation screen",
+      "message": "एक पुनर्प्राप्ती प्रतिमा तयार करा"
+   },
+   "CONTINUE_BUTTON_TEXT": {
+      "description": "Text for the continue button at the bottom of the screen",
+      "message": "सुरु ठेवा"
+   },
+   "CREATE_ANOTHER_BUTTON_TEXT": {
+      "description": "Text for the button to go back to the start of the application after the recovery disk has been created",
+      "message": "दुसरे तयार करा"
+   },
+   "CREATE_NOW_BUTTON_TEXT": {
+      "description": "Text for the button to start the recovery disk creation",
+      "message": "आता तयार करा"
+   },
+   "DONE_BUTTON_TEXT": {
+      "description": "Text for the button to close the application after the recovery disk has been created / Text for the button to go back to the start of the application after the recovery disk has been erased",
+      "message": "पूर्ण झाले"
+   },
+   "ERASE_COMPLETE_BULLET1": {
+      "description": "Shown on the erase completed screen",
+      "message": "आपली USB ड्राइव्ह किंवा SD कार्ड स्वरुपित करण्यासाठी तयार आहे."
+   },
+   "ERASE_COMPLETE_BULLET2": {
+      "description": "Shown on the erase completed screen",
+      "message": "आपल्या ऑपरेटिंग सिस्टीमद्वारे प्रदान केलेल्या स्वरुपन साधनाद्वारे स्वरुपित करा."
+   },
+   "ERASE_COMPLETE_TITLE": {
+      "description": "Title for erase completed screen",
+      "message": "आपले पुनर्प्राप्ती माध्यम मिटविले गेले."
+   },
+   "ERASE_CONFIRM_MESSAGE": {
+      "description": "Important message, indicates what the application is going to do",
+      "message": "आपल्या पुनर्प्राप्ती माध्यमवरील पुनर्प्राप्ती प्रतिमा आणि सर्व वि‍भाजने मिटविले जातील."
+   },
+   "ERASE_NOW_BUTTON_TEXT": {
+      "description": "Text for the button to start the recovery disk erasure",
+      "message": "आता मिटवा"
+   },
+   "ERASE_PROGRESS_TEXT": {
+      "description": "Shown when the drive is being erased",
+      "message": "आपले पुनर्प्राप्ती माध्यम काढू नका."
+   },
+   "ERASE_PROGRESS_TITLE": {
+      "description": "Title for the screen where the drive is being erased",
+      "message": "आपले पुनर्प्राप्ती माध्यम मिटवित आहे"
+   },
+   "ERASE_SELECT_TARGET_DETECTING": {
+      "description": "Indicates that the app is currently detecting the list of USB devices",
+      "message": "शोधत आहे"
+   },
+   "ERASE_SELECT_TARGET_HIGH_CAPACITY_WARNING_HTML": {
+      "description": "Warning that is shown if the user selects a drive with a high capacity",
+      "message": "\u003Cb>चेतावणी:\u003C/b> हा योग्य ड्राइव्ह आहे?"
+   },
+   "ERASE_SELECT_TARGET_NO_DEVICES_FOUND": {
+      "description": "Indicates that no USB devices were found",
+      "message": "कोणतेही USB ड्राइव्ह किंवा SD कार्ड आढळले नाहीत"
+   },
+   "ERASE_SELECT_TARGET_SELECT_DEVICE": {
+      "description": "Prompts the user to select a drive",
+      "message": "आपण मिटवू इच्छित असलेले पुनर्प्राप्ती माध्यम निवडा."
+   },
+   "ERASE_SELECT_TARGET_SELECT_DEVICE_PLACEHOLDER": {
+      "description": "Prompts the user to select a drive (text is shown inside the dropdown)",
+      "message": "निवडा"
+   },
+   "ERASE_TITLE": {
+      "description": "Title for the screens related to erasing",
+      "message": "पुनर्प्राप्ती माध्यम मिटवा"
+   },
+   "ERRMSG_PLEASE_TRY_AGAIN": {
+      "description": "Error text that is shown after the error message",
+      "message": "कृपया पुन्हा प्रयत्न करा."
+   },
+   "ERRMSG_RECOVERY_CONFIG_DOWNLOAD_FAILURE": {
+      "description": "Error message that is shown if the app's configuration file cannot be downloaded. In this case, the app will only be able to support offline features.",
+      "message": "कॉन्फिगरेशन फाईल डाउनलोड करण्यात अयशस्वी. केवळ ऑफलाइन वैशिष्ट्ये उपलब्ध होतील."
+   },
+   "GET_STARTED_BUTTON_TEXT": {
+      "description": "Text for the 'get started' button at the bottom of the screen",
+      "message": "प्रारंभ करा"
+   },
+   "GIGABYTE_ABBREVIATION": {
+      "description": "The abbreviation for gigabyte",
+      "message": "GB"
+   },
+   "GO_BACK_BUTTON_TEXT": {
+      "description": "Text for the back button at the bottom of the screen",
+      "message": "परत जा"
+   },
+   "HOURS_REMAINING": {
+      "description": "A message that indicates the time remaining for an operation.",
+      "message": "$hours$ तास शिल्लक आहेत.",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "The number of hours remaining."
+         }
+      }
+   },
+   "HWID_INVALID_MODEL": {
+      "description": "Message shown to user when it's clear that what they have entered doesn't match any valid model number.",
+      "message": "अवैध मॉडेल नंबर. कृपया आपली प्रविष्टी तपासा."
+   },
+   "HWID_KEEP_TYPING": {
+      "description": "Message shown to user when they have no yet entered enough info to determine a specific device.",
+      "message": "अद्याप कोणतेही मॉडेल आढळले नाही. प्रयत्न करणे सुरु ठेवा."
+   },
+   "HWID_MATCH_FOUND": {
+      "description": "Message shown to user when they have entered enough info to determine a specific device.",
+      "message": "एक जुळणी आढळली"
+   },
+   "HWID_MATCH_FOUND_AND_CHECKSUM_VERIFIED": {
+      "description": "Message shown to user when they have entered a full model number and the checksum is verified.",
+      "message": "अचूक मॉडेल नावासह एक जुळणी आढळली"
+   },
+   "LEARN_MORE_LINK_TEXT": {
+      "description": "Text for the 'learn more' link at the bottom left of the screen",
+      "message": "अधिक जाणून घ्या"
+   },
+   "LOADING_CONFIG_TEXT": {
+      "description": "Message to user indicating that the app is downloading latest information about recovery for different devices. It is preparing itself to be used.",
+      "message": "तयार करत आहे ... "
+   },
+   "MENU_ITEM_ERASE_RECOVERY_MEDIA": {
+      "description": "Text for the menu item to erase recovery media",
+      "message": "पुनर्प्राप्ती माध्यम मिटवा"
+   },
+   "MENU_ITEM_SEND_FEEDBACK": {
+      "description": "Text for the menu item to send feedback",
+      "message": "अभिप्राय पाठवा"
+   },
+   "MENU_ITEM_USE_LOCAL_IMAGE": {
+      "description": "Text for the menu item to use a local file as the source image for the recovery disk",
+      "message": "स्थानिक प्रतिमा वापरा"
+   },
+   "MINUTES_REMAINING": {
+      "description": "A message that indicates the time remaining for an operation.",
+      "message": "$minutes$ मिनिटे शिल्लक आहेत.",
+      "placeholders": {
+         "minutes": {
+            "content": "$1",
+            "example": "The number of minutes remaining."
+         }
+      }
+   },
+   "OF": {
+      "description": "Shown as part of the text 'step %x of %x'",
+      "message": "पैकी"
+   },
+   "SECONDS_REMAINING": {
+      "description": "A message that indicates the time remaining for an operation.",
+      "message": "$seconds$ सेकंद शिल्लक आहेत.",
+      "placeholders": {
+         "seconds": {
+            "content": "$1",
+            "example": "The number of seconds remaining."
+         }
+      }
+   },
+   "SELECT_IMAGE_SELECT_BY_HWID_LINK_TEXT": {
+      "description": "Text for the 'select by model number' link",
+      "message": "एक मॉडेल नंबर थेट प्रविष्ट करा"
+   },
+   "SELECT_IMAGE_SELECT_FROM_LIST_LINK_TEXT": {
+      "description": "Text for 'select by model' link",
+      "message": "सूचीवरुन एक मॉडेल निवडा"
+   },
+   "SELECT_IMAGE_SELECT_MANUFACTURER_PLACEHOLDER": {
+      "description": "Prompts the user to select a manufacturer (text is shown inside the dropdown)",
+      "message": "एक निर्माता निवडा"
+   },
+   "SELECT_IMAGE_SELECT_PRODUCT_PLACEHOLDER": {
+      "description": "Prompts the user to select a product (text is shown inside the dropdown)",
+      "message": "एक उत्पादन निवडा"
+   },
+   "SELECT_IMAGE_TEXT": {
+      "description": "Prompts the user to enter a model number. Refers to the recovery screen.",
+      "message": "पुनर्प्राप्त करण्यासाठी Chromebook चा मॉडेल नंबर प्रविष्ट करा. तो पुनर्प्राप्ती स्क्रीनवर आढळू शकतो."
+   },
+   "SELECT_IMAGE_THIS_CHROMEBOOKS_MODEL_NUMBER": {
+      "description": "Label that precedes a HWID string (e.g.: LINK D25-E5M-K75) that is the model number for the Chromebook the user is using. The HWID string is hyperlinked and clicking on it will populate the value into the model number input field. In English, this would for example read 'For this Chromebook, enter _LINK D25-E5M-K75_'",
+      "message": "या Chromebook साठी, प्रविष्ट करा"
+   },
+   "SELECT_IMAGE_TITLE": {
+      "description": "Title for the image selection screen",
+      "message": "आपली Chromebook ओळखा"
+   },
+   "SELECT_TARGET_DETECTING": {
+      "description": "Indicates that the app is currently detecting the list of USB devices",
+      "message": "शोधत आहे"
+   },
+   "SELECT_TARGET_HIGH_CAPACITY_WARNING_HTML": {
+      "description": "Warning that is shown if the user selects a drive with a high capacity",
+      "message": "\u003Cb>चेतावणी:\u003C/b> हे योग्य माध्यम आहे का?"
+   },
+   "SELECT_TARGET_LOW_CAPACITY_ERROR": {
+      "description": "Error that is shown if the user selects a drive with not enough capacity",
+      "message": "आपले माध्‍यम कमीत कमी 4GB चे असावे."
+   },
+   "SELECT_TARGET_NO_DEVICES_FOUND": {
+      "description": "Indicates that no USB devices were found",
+      "message": "कोणतेही USB ड्राइव्ह किंवा SD कार्ड आढळले नाहीत"
+   },
+   "SELECT_TARGET_SELECT_DEVICE": {
+      "description": "Prompts the user to select a drive",
+      "message": "आपण वापरु इच्छित असलेले माध्यम निवडा."
+   },
+   "SELECT_TARGET_SELECT_DEVICE_PLACEHOLDER": {
+      "description": "Prompts the user to select a drive (text is shown inside the dropdown)",
+      "message": "निवडा"
+   },
+   "SELECT_TARGET_TITLE": {
+      "description": "Title for the screen where the user selects the target USB device",
+      "message": "आपला USB फ्लॅश ड्राइव्ह किंवा SD कार्ड घाला"
+   },
+   "STAGE_COMPLETE": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "पूर्ण"
+   },
+   "STAGE_DOWNLOAD": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "डाउनलोड करत आहे"
+   },
+   "STAGE_DOWNLOADVERIFY": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "डाउनलोड सत्यापित करत आहे"
+   },
+   "STAGE_UNPACK": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "अनपॅक करत आहे"
+   },
+   "STAGE_UNZIP": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "अनपॅक करत आहे"
+   },
+   "STAGE_VERIFY": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "सत्यापित करत आहे"
+   },
+   "STAGE_VERIFYDOWNLOAD": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "डाउनलोड सत्यापित करत आहे"
+   },
+   "STAGE_VERIFYWRITE": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "सत्यापित करत आहे"
+   },
+   "STAGE_WRITE": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "लिहीत आहे"
+   },
+   "STEP": {
+      "description": "Shown as part of the text 'step %x of %x'",
+      "message": "चरण"
+   },
+   "UNSUPPORTED_TEXT": {
+      "description": "Text displayed when the user's platform is not supported.",
+      "message": "दुर्दैवाने, यावेळी आपला प्लॅटफॉर्म समर्थित नाहीये. कृपया अधिक माहितीसाठी \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook मदत केंद्र\u003C/a> चा संदर्भ घ्या."
+   },
+   "UNSUPPORTED_TEXT_MAC": {
+      "description": "Text displayed when the user's platform is not supported.",
+      "message": "दुर्दैवाने, Mac केवळ M37 वर किंवा उच्चवर समर्थित आहे. कृपया आपले Chrome M37 वर अद्यतनित करा. यासाठी \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">बीटा चॅनेलवर स्विच करणे\u003C/a> आवश्यक असू शकते."
+   },
+   "UNSUPPORTED_TITLE": {
+      "description": "Title displayed when the user's platform is not supported.",
+      "message": "आपला प्लॅटफॉर्म सध्या असमर्थित आहे"
+   },
+   "UNSUPPORTED_TITLE_LINUX": {
+      "description": "Title displayed when the user's platform is not supported.",
+      "message": "Linux सध्या असमर्थित आहे"
+   },
+   "UNSUPPORTED_TITLE_MAC": {
+      "description": "Title displayed when the user's platform is not supported.",
+      "message": "Mac सध्या असमर्थित आहे"
+   },
+   "UNSUPPORTED_TITLE_WIN": {
+      "description": "Title displayed when the user's platform is not supported.",
+      "message": "Windows सध्या असमर्थित आहे"
+   },
+   "WARNING_OFFLINE": {
+      "description": "Warning message that is shown to the user when his device is offline.",
+      "message": "डिव्हाइस ऑफलाइन आहे. केवळ ऑफलाइन वैशिष्ट्ये उपलब्ध असतील."
+   },
+   "WELCOME_TEXT": {
+      "description": "Text on the welcome screen",
+      "message": "आपल्याला 4 GB किंवा त्यापेक्षा मोठ्या USB फ्लॅश ड्राइव्ह किंवा SD कार्ड ची आवश्यकता असेल जे मिटविण्यास आपल्याला हरकत नसावी."
+   },
+   "WELCOME_TITLE": {
+      "description": "Title for the welcome screen",
+      "message": "आपल्या Chromebook साठी एक पुनर्प्राप्ती माध्यम तयार करा"
+   },
+   "WRITE_MESSAGE": {
+      "description": "Shown on the screen where the drive is being created",
+      "message": "आपले पुनर्प्राप्ती माध्यम काढू नका."
+   },
+   "WRITE_TITLE": {
+      "description": "Title of the screen where the drive is being created",
+      "message": "एक पुनर्प्राप्ती प्रतिमा तयार करत आहे"
+   }
+}

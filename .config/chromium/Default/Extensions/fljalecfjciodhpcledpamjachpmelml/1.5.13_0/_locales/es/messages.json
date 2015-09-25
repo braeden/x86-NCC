@@ -1,0 +1,302 @@
+{
+   "aboutHomePage": {
+      "message": "Página Principal"
+   },
+   "aboutLicense": {
+      "message": "Caret está disponible bajo licencia GPL, lo que significa que \u003Ca href=\"https://github.com/thomaswilburn/Caret\" target=_blank>source code\u003C/a> está disponible libremente para que usted use y modifique a su antojo. Si ud. considera que Caret le es útil, considere donar a la Free Software Foundation's \u003Ca href=\"http://endsoftwarepatents.org/donate\" target=_blank>Fund to End Software Patents\u003C/a>."
+   },
+   "aboutSupport": {
+      "message": "Soporte"
+   },
+   "aboutWrittenBy": {
+      "message": "Programado por \u003Ca href=\"http://thomaswilburn.net\" target=_blank>Thomas Wilburn\u003C/a>. Traducido por Damián Kleiman."
+   },
+   "dialogCancel": {
+      "message": "Cancelar"
+   },
+   "dialogDiscard": {
+      "message": "Descartar"
+   },
+   "dialogModifiedBackground": {
+      "message": "El archivo fue modificado desde la ultima vez que se guardo. Quiere recargarlo?"
+   },
+   "dialogModifiedUnsaved": {
+      "message": "$1 fue modificado.\nQuiere guardar los cambios?"
+   },
+   "dialogOK": {
+      "message": "OK"
+   },
+   "dialogReload": {
+      "message": "Recargar"
+   },
+   "dialogSave": {
+      "message": "Guardar"
+   },
+   "dialogUnsaved": {
+      "message": "$1 tiene trabajo sin guardar."
+   },
+   "editorWordCount": {
+      "message": "$1 caracteres, $2 palabras, $3 lineas"
+   },
+   "fileAutosaving": {
+      "message": "Ejecutando autosave para todos los tabs..."
+   },
+   "fileLoaded": {
+      "message": "Cargados $1, $2 bytes"
+   },
+   "loading": {
+      "message": "cargando"
+   },
+   "menuAPI": {
+      "message": "Comandos Externos"
+   },
+   "menuAboutCaret": {
+      "message": "Acerca de Caret"
+   },
+   "menuAddDir": {
+      "message": "Agregar Directorio"
+   },
+   "menuBlockComment": {
+      "message": "Comentario en Bloque"
+   },
+   "menuCheckForUpdates": {
+      "message": "Buscar Actualizaciones"
+   },
+   "menuClearProject": {
+      "message": "Limpiar Proyecto"
+   },
+   "menuClose": {
+      "message": "Cerrar"
+   },
+   "menuCommandPalette": {
+      "message": "Paleta De Comandos"
+   },
+   "menuDefaults": {
+      "message": "Ver Defaults"
+   },
+   "menuEdit": {
+      "message": "Editar"
+   },
+   "menuEditProject": {
+      "message": "Editar Proyecto Actual"
+   },
+   "menuEmergencyReset": {
+      "message": "Reset de Emergencia"
+   },
+   "menuExit": {
+      "message": "Salir"
+   },
+   "menuFile": {
+      "message": "Archivo"
+   },
+   "menuFind": {
+      "message": "Encontrar"
+   },
+   "menuFindNext": {
+      "message": "Encontrar Siguiente"
+   },
+   "menuFindReplace": {
+      "message": "Encontrar/Reemplazar"
+   },
+   "menuGoToAnything": {
+      "message": "Ir A..."
+   },
+   "menuGoToLine": {
+      "message": "Ir A Línea"
+   },
+   "menuGoToRef": {
+      "message": "Ir A Referencia"
+   },
+   "menuGoToSearch": {
+      "message": "Ir A Búsqueda"
+   },
+   "menuHelp": {
+      "message": "Ayuda"
+   },
+   "menuInsertFromFile": {
+      "message": "Insertar dede Archivo"
+   },
+   "menuJoinLines": {
+      "message": "Unir Líneas"
+   },
+   "menuKeyboard": {
+      "message": "Teclado"
+   },
+   "menuKeyboardDefault": {
+      "message": "Teclado (Defaults)"
+   },
+   "menuMenus": {
+      "message": "Menus"
+   },
+   "menuMenusDefault": {
+      "message": "Menus (Defaults)"
+   },
+   "menuMoveLinesDown": {
+      "message": "Mover Líneas Abajo"
+   },
+   "menuMoveLinesUp": {
+      "message": "Mover Líneas Arriba"
+   },
+   "menuNewFile": {
+      "message": "Nuevo"
+   },
+   "menuOpenFile": {
+      "message": "Abrir"
+   },
+   "menuOpenProject": {
+      "message": "Abrir Archivo Proyecto"
+   },
+   "menuPrint": {
+      "message": "Imprimir"
+   },
+   "menuProject": {
+      "message": "Proyecto"
+   },
+   "menuRedo": {
+      "message": "Rehacer"
+   },
+   "menuRefreshDir": {
+      "message": "Refrescar Directorios"
+   },
+   "menuRemoveAllDirs": {
+      "message": "Remover Todos Los Directorios"
+   },
+   "menuReplayMacro": {
+      "message": "Repetir Macro"
+   },
+   "menuReset": {
+      "message": "Resetear"
+   },
+   "menuResetKeyboard": {
+      "message": "Resetear Teclado"
+   },
+   "menuResetMenus": {
+      "message": "Resetear Menus"
+   },
+   "menuResetTheme": {
+      "message": "Resetear Tema Custom"
+   },
+   "menuResetUserPrefs": {
+      "message": "Resetear Preferencias Usuario"
+   },
+   "menuRevert": {
+      "message": "Revertir"
+   },
+   "menuSave": {
+      "message": "Guardar"
+   },
+   "menuSaveAs": {
+      "message": "Guardar como..."
+   },
+   "menuSaveProject": {
+      "message": "Guardar Archivo Proyecto"
+   },
+   "menuSelectLine": {
+      "message": "Seleccionar Línea"
+   },
+   "menuSelectP": {
+      "message": "Seleccionar Parrafo"
+   },
+   "menuSelectToMatch": {
+      "message": "Seleccionar Pareja"
+   },
+   "menuSelectWord": {
+      "message": "Elegir Palabra"
+   },
+   "menuSetNewline": {
+      "message": "Modo Nueva Línea"
+   },
+   "menuSettings": {
+      "message": "Configuraciones"
+   },
+   "menuSortLines": {
+      "message": "Ordenar Líneas"
+   },
+   "menuSpacesToTabs": {
+      "message": "Convertir Espacipo a Tabs"
+   },
+   "menuSplitLine": {
+      "message": "Dividir Línea"
+   },
+   "menuTabsToSpaces": {
+      "message": "Convertir Tabs a Espacios"
+   },
+   "menuTheme": {
+      "message": "Tema Custom"
+   },
+   "menuThemeDefault": {
+      "message": "Tema Custom (Defaults)"
+   },
+   "menuToLowercase": {
+      "message": "A Minúsculas"
+   },
+   "menuToUppercase": {
+      "message": "A Mayúsculas"
+   },
+   "menuToggleComment": {
+      "message": "Comentario"
+   },
+   "menuToggleMacro": {
+      "message": "Activar Grabar Macro"
+   },
+   "menuTools": {
+      "message": "Herramientas"
+   },
+   "menuTrimWhitespace": {
+      "message": "Eliminar Espacios en Blanco"
+   },
+   "menuUndo": {
+      "message": "Deshacer"
+   },
+   "menuUserPrefs": {
+      "message": "Preferencias de Usuario"
+   },
+   "menuUserPrefsDefault": {
+      "message": "Preferencias De Usuario (Defaults)"
+   },
+   "menuWordCount": {
+      "message": "Cuenta Palabras"
+   },
+   "menuWrapToPrint": {
+      "message": "Alinear al Margen de Impresión"
+   },
+   "notificationNoUpdateDetail": {
+      "message": "No hay actualizaciones de Caret en este momento."
+   },
+   "notificationNoUpdateTitle": {
+      "message": "No hay actualizaciones disponibles"
+   },
+   "notificationUpdateAvailable": {
+      "message": "Caret: Actualización disponible"
+   },
+   "notificationUpdateDetail": {
+      "message": "Actualización a la versión $1 disponible. Quiere actualizar y reiniciar ahora?"
+   },
+   "notificationUpdateOK": {
+      "message": "Si, actualizar y reiniciar"
+   },
+   "notificationUpdateWait": {
+      "message": "No gracias"
+   },
+   "notificationUpdated": {
+      "message": "Caret fue actualizado"
+   },
+   "notificationUpdatedDetail": {
+      "message": "Ahora en la versión $1. Haga clic para ver los cambios en la tienda Chrome."
+   },
+   "paletteExecuting": {
+      "message": "Ejecutando $1..."
+   },
+   "projectNoCurrentProject": {
+      "message": "No hay proyecto abierto."
+   },
+   "recordingMacro": {
+      "message": "Grabando macro..."
+   },
+   "setSyntax": {
+      "message": "Pone Sintaxis: $1"
+   },
+   "setTheme": {
+      "message": "Pone Tema: $1"
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "description": "Used alongside the JSTorrent BitTorrent Chrome app, adds extra functionality",
+   "externally_connectable": {
+      "ids": [ "anhdpjpojoipgpmfanmedjghaligalgb", "abmohcnlldaiaodkpacnldcdnjjgldfh" ]
+   },
+   "icons": {
+      "128": "js-128.png",
+      "16": "js-16.png",
+      "19": "js-19.png",
+      "256": "js-256.png",
+      "32": "js-32.png",
+      "48": "js-48.png",
+      "512": "js-512.png",
+      "96": "js-96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC86AHTjKpKcEelQF50ifTV9H5uOE3fPnvIw1QeStr3aTHbknE5XmvwJY2zjw+iILOvqyaC5iLXFgiOh2guRvFLWpDq/YGIGH+ZRwEr4Vs0ulN95crCvbQHr5jNuXFcnLix5ehBQ6lTkmyILdnHtCB1UOfGYFv6DDTvUXa+vUG3pwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "31",
+   "name": "JSTorrent Helper extension",
+   "permissions": [ "contextMenus", "notifications" ],
+   "short_name": "JSTorrent Helper",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.0"
+}

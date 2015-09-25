@@ -1,0 +1,20 @@
+{
+   "content_scripts": [ {
+      "exclude_matches": [ "*://*/r/*/comments/*", "*://*/r/*" ],
+      "js": [ "jihad.js" ],
+      "matches": [ "http://reddit.com/*", "https://reddit.com/*", "http://*.reddit.com/*", "https://*.reddit.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "This extension changes the subreddit name on the fronpage to make it unexpected! And you're now on a list.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgkUOd7VfC7TKF9SdmzbmijbfY0f3vs1X7Ir39tW53yIEO8gZFsafHTfZJbEi4BUYlgfSwr8YWj1C/5ybzDWC2WdHMxtMaqxzqJSZ75YiAZ8x0vYjfNiyQ2QA4KZKnvM4XDYC3MRlkoZMuKtWG6NZ9WxuK0534qCic4ZrAmknnHvNRj5ZPBCwW70ge1pxI0aj+Gr8bTteG484qaAeLs7m+h0kEX26DcTAKEz8qGLYSiQM8yP2yVJMq0nBwNQN5C9+tx68vx6A3fPJBWBX/uNQ0Ns6P1EGYLkYy8qX7+lEcK65fVZUbiN4+w9OCqYamK2GlSS9gMN/KWwjWVlo3v0cfwIDAQAB",
+   "manifest_version": 2,
+   "name": "Really unexpected jihad",
+   "short_name": "RUJ",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

@@ -1,0 +1,58 @@
+{
+   "app": {
+      "background": {
+         "persistent": true,
+         "scripts": [ "background.js" ]
+      }
+   },
+   "author": "Kyle Graehl",
+   "description": "A Torrent Client for Google Chrome, runs everywhere in pure JavaScript",
+   "externally_connectable": {
+      "ids": [ "bnceafpojmnimbnhamaeedgomdcgnbjk" ],
+      "matches": [ "*://*.jstorrent.com/*", "*://jstorrent.com/*", "http://127.0.0.1/*" ]
+   },
+   "file_handlers": {
+      "any": {
+         "extensions": [ "torrent" ],
+         "types": [ "application/x-bittorrent" ]
+      }
+   },
+   "icons": {
+      "128": "js-128.png",
+      "16": "js-16.png",
+      "19": "js-19.png",
+      "256": "js-256.png",
+      "32": "js-32.png",
+      "48": "js-48.png",
+      "512": "js-512.png",
+      "96": "js-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqVkeimcHmKsjHDtmoH19r2XG1bFf6Dks3e8s6l+8LrS5SMY0FlJqTVNq5o3XR9jv8xk3v7Fxw79P2UR1SYgY1lwifIofjvB3ROylKmu3OvVxYaiJmPUoeGicyrjs4vRF9NuyQuvV1ltCpyA9dFqpsAai7neT8vpjgELbfddoE3OeDQ3u7ztG/tGxVjpBP5B1XcKPIU1IsJwfPZcvoL7lwaOL+8t0LFdMnlNCzkO+WsKG313oOvV+D1Fz/EEu4d7VfDOvQOwJ+DSFupd0Q0edLYKgh4LsOp42UCFABr+kS3O9CoNTgg8CBVpGQe3n1Yd+/jj0VUfdX7ZrIM3ilt7VmQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "33",
+   "name": "JSTorrent Lite",
+   "oauth2": {
+      "client_id": "432934632994-20rclui1m8od0p2g09vfbrdnk93gbraa.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/chromewebstore.readonly" ]
+   },
+   "offline_enabled": true,
+   "optional_permissions": [  ],
+   "permissions": [ {
+      "fileSystem": [ "write", "directory", "retainEntries" ]
+   }, "contextMenus", "storage", "unlimitedStorage", "system.storage", "idle", "power", "notifications", "http://*/", "https://*/", "identity" ],
+   "short_name": "JSTorrent Lite",
+   "sockets": {
+      "tcp": {
+         "connect": [ "" ]
+      },
+      "tcpServer": {
+         "listen": [ "" ]
+      },
+      "udp": {
+         "bind": [ "" ],
+         "send": [ "" ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.10"
+}

@@ -1,0 +1,9 @@
+2015/09/01-13:48:37.056 27811 Reusing MANIFEST /home/braeden/.config/chromium/Default/IndexedDB/https_keep.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2015/09/01-13:48:37.075 27811 Current memtable full; waiting...
+2015/09/01-13:48:37.075 15099 Level-0 table #5: started
+2015/09/01-13:48:37.081 15099 Level-0 table #5: 379 bytes OK
+2015/09/01-13:48:37.089 15099 Delete type=0 #3
+2015/09/01-13:48:37.090 15099 Level-0 table #7: started
+2015/09/01-13:48:37.090 15099 Level-0 table #7: 0 bytes OK
+2015/09/01-13:48:37.097 15099 Delete type=0 #4
+2015/09/01-13:48:37.097 15099 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

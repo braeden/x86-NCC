@@ -1,0 +1,26 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "disconnected-19.png",
+         "38": "disconnected-38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "crouton"
+   },
+   "description": "Improves integration with crouton chroots.",
+   "icons": {
+      "128": "icon-128.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAroJUFus0RSn91/bTjQ9pnz4MEPJZs3c95bDV61MS/pfGarGyM/BvaoOnXNG871/tlEX3fqmafiX0u7AYRkgo2bcySJe8VNAbDjEi/p2+Oxtf1XCbtZnGATWSmqoxjP5zsdcN3KHIIAMv2N0oyj6WNLt0VERoic8ZWH0rbmmmYmJrnkDkiLewQfmqn8Vzk8mnF8qXUOJLEGhvCAp5EMsIelNOlmGMKZTX+Aw8F9BwakAi7/L+QOBhQcHjexORTP1P3ugA9yDm+txgfxon6ik0Q5ljUGPdUoDVL7FuAHvpv6gudoc4gZP0TCjNw/JYKqrY0pzUAvICsjvIR9/tXz63iQIDAQAB",
+   "manifest_version": 2,
+   "name": "crouton integration",
+   "offline_enabled": true,
+   "permissions": [ "clipboardRead", "clipboardWrite", "notifications" ],
+   "short_name": "crouton",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5.0"
+}

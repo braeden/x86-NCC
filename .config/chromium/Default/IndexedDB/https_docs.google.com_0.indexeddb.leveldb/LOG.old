@@ -1,0 +1,9 @@
+2015/09/24-18:18:28.544 8911 Reusing MANIFEST /home/braeden/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000279
+2015/09/24-18:18:28.544 8911 Recovering log #347
+2015/09/24-18:18:28.548 8911 Reusing old log /home/braeden/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000347.log 
+2015/09/24-18:18:28.548 8911 Delete type=2 #341
+2015/09/24-18:18:28.550 8911 Delete type=2 #345
+2015/09/24-18:18:28.550 8911 Delete type=2 #344
+2015/09/24-18:18:28.550 8911 Delete type=2 #348
+2015/09/24-18:18:28.551 8911 Delete type=2 #343
+2015/09/24-18:18:28.551 8911 Delete type=2 #342
