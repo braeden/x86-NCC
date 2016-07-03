@@ -1,0 +1,145 @@
+TO EXECUTE:
+	tasm program.asm
+	tlink program
+	program.exe
+
+PRINT STRING:
+	stringToPrint DB "String$"
+	MOV AH,9
+	LEA DX,stringToPrint
+	INT 21h
+
+PRINT CHAR:
+	MOV AH,2
+	MOV DL,"?"
+	INT 21h
+
+TAKE INPUT:
+	String
+		inputBuffer DB "123456780.."
+		LEA DX, inputBuffer
+		CALL InputStr
+---
+		Buffer at DX with $
+		AL contains # of chars -$
+	Byte
+		CALL InputDecByte
+---
+		AL contains numeric value
+	Word
+		Call InputDecWord
+---
+		AX contains numeric value
+RETURN INPUT:
+	String
+		MOV AH,9
+		LEA DX,inputBuffer
+		INT 21h
+	Byte
+		MOV DL,AL
+		CALL PrintDecByte
+	Word
+		MOV DX,AX
+		CALL PrintDecWord	
+
+MATH:
+	Add
+		ADD AX,5
+---
+		ADD *dest* *src*
+		add 5 to AX
+	Subtract
+		SUB AX,5
+---
+		SUB *dest*, *source*
+		Subtract 5 from AX
+	Multiply
+           B*B
+		MOV byteSrc,8   ;Set byteSrc = 8
+		MUL byteSrc     ;Multiply byteSrc by AL's byte value
+		;Store in AX
+	   W*W
+		MOV wordSrc,512 ;set wordSrc = 512
+		MUL wordSrc     ;Multiply wordSrc by AX's word value
+		;Store in DX:AX = double word value in which Highword=DX + Loww=AX
+	Divide
+	   W/B
+		MOV byteSrc,8   ;Set byteSrc = 8
+		DIV byteSrc	;Divide word AX by byteSrc
+	   	;Store quotient in AL & remainder in AH
+	   DW/W
+		MOV wordSrc,512 ;Set wordSrc = 512
+		DIV wordSrc     ;Divide the double word DX:AX by wordSrc
+		;Store quotient in AX & remainder DX
+	   B/B
+		MOV AH,0	;Set high byte of AX=0
+		MOV AL,128	;Set low byte of AX=128 (AX is now = to 128)
+		MOV BL,10	;Set BL=10
+		DIV BL		;Divide AX by BL | quotient in AL | remainder in AH
+	Increment
+		INC *dest*
+	Decrement
+		DEC *dest*
+
+VARIABLES:
+	Define Byte
+		position DB 0
+                char DB '%'
+                undefinedByte DB ?
+                newline DB 13,10
+		prompt DB "test$"
+	Define Word
+		daysInYear DW 365
+	Define Double Word
+		DD
+
+BRANCHING:
+	Lables 
+		Start:
+		End:
+	Jump
+		JMP *lable*
+	Compare values
+		CMP AL,14 ;Compare AL with 14
+	Equalities
+		JL *lable* 	< 		;If AL AL<14 jmp to lables
+		JLE		<=
+		JE		=
+		JNE		!=
+		JG		>
+		JGE		>=
+		JMP		JUMP
+IFs and LOOPS:
+	LOOP Opcode
+		;;;;;;;;;;Decrement CX and while CX != 0 JMP to Lstart
+		MOV CX,10
+		Lstart:
+		  *statments*
+		  LOOP Lstart
+		Lend
+	Counter
+		MOV counter,1
+		Lstart:
+		  CMP counter,10
+		  JG Lend
+		  *statments*
+		  INC counter
+		  JMP Lstart
+		Lend:
+
+THE STACK:
+	***
+	Stack can only store words
+	Must be popped off in revere order (last in, first out)
+	***
+	Pushing
+		PUSH AX ;Push AX onto stack
+	Popping
+		POP AX ;returns AX's pushed value into AX
+	Using non-words
+		MOV AL, *nonword*
+		PUSH AX
+		POP AX
+		MOV *nonword*,AL
+
+

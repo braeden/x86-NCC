@@ -1,0 +1,9 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 001FFH 00200H MYSTACK            
+ 00200H 00200H 00000H MYDATA             
+ 00200H 00E5EH 00C5FH MYCODE             
+
+Program entry point at 0020:0C4E
+
